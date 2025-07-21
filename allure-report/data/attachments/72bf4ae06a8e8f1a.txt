@@ -1,0 +1,17 @@
+{
+  "status": 200,
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "홍길동",
+        "email": "hong@example.com"
+      },
+      {
+        "id": 2,
+        "name": "김철수",
+        "email": "kim@example.com"
+      }
+    ]
+  }
+}

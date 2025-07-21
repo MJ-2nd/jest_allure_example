@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"사용자가 올바른 자격 증명으로 로그인할 수 있는지 확인합니다.","24","사용자 로그인 성공 테스트","","Mon Jul 21 13:48:32 KST 2025","passed","Mon Jul 21 13:48:32 KST 2025","","Allure Jest 샘플 테스트 스위트","",""
+"시스템이 예외 상황을 올바르게 처리하는지 확인합니다.","8","에러 처리 테스트","","Mon Jul 21 13:48:32 KST 2025","passed","Mon Jul 21 13:48:32 KST 2025","","Allure Jest 샘플 테스트 스위트","",""
+"기본 수학 연산이 올바르게 작동하는지 확인합니다.","8","계산기 기능 테스트","","Mon Jul 21 13:48:32 KST 2025","passed","Mon Jul 21 13:48:32 KST 2025","","Allure Jest 샘플 테스트 스위트","",""
+"API 엔드포인트가 올바른 응답을 반환하는지 확인합니다.","15","API 응답 검증 테스트","","Mon Jul 21 13:48:32 KST 2025","passed","Mon Jul 21 13:48:32 KST 2025","","Allure Jest 샘플 테스트 스위트","",""

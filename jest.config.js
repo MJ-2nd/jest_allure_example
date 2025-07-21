@@ -1,7 +1,7 @@
 /** @type {import('jest').Config} */
 module.exports = {
   // 테스트 환경 설정
-  testEnvironment: 'node',
+  testEnvironment: 'jest-allure2-reporter/environment-node',
   
   // 테스트 파일 패턴
   testMatch: [
@@ -26,7 +26,9 @@ module.exports = {
   ],
   
   // 설정 파일들
-  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+  setupFilesAfterEnv: [
+    '<rootDir>/jest.setup.js'
+  ],
   
   // 모듈 경로 설정
   moduleDirectories: ['node_modules', '<rootDir>'],
@@ -38,7 +40,8 @@ module.exports = {
   
   // 테스트 결과 리포터 설정
   reporters: [
-    'default'
+    'default',
+    'jest-allure2-reporter'
   ],
   
   // Allure 환경 설정
