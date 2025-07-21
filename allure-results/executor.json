@@ -1,0 +1,9 @@
+{
+  "name": "Jest",
+  "type": "jest",
+  "buildOrder": 1753072585235,
+  "buildName": "Build-2025-07-21",
+  "buildUrl": "localhost",
+  "reportUrl": "localhost/allure-report",
+  "reportName": "Jest Allure Report"
+}

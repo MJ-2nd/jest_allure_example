@@ -1,0 +1,25 @@
+{
+  "name": "jest-allure-example",
+  "version": "1.0.0",
+  "description": "Jest와 Allure를 활용한 샘플 테스트 프로젝트",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:allure": "jest && allure generate allure-results -o allure-report --clean",
+    "allure:serve": "allure serve allure-results",
+    "allure:generate": "allure generate allure-results -o allure-report --clean",
+    "allure:open": "allure open allure-report"
+  },
+  "keywords": ["jest", "allure", "testing", "report"],
+  "author": "Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "allure-js-commons": "^2.15.1",
+    "allure-commandline": "^2.29.0",
+    "@jest/globals": "^29.7.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "babel-jest": "^29.7.0"
+  }
+} 

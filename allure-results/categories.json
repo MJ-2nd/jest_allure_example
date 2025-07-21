@@ -1,0 +1,22 @@
+[
+  {
+    "name": "제품 결함",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "messageRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "테스트 결함",
+    "matchedStatuses": [
+      "broken"
+    ],
+    "messageRegex": ".*Error.*"
+  },
+  {
+    "name": "무시된 테스트",
+    "matchedStatuses": [
+      "skipped"
+    ]
+  }
+]
